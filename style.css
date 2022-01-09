@@ -172,7 +172,7 @@ ul.songs li {
   }
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 450px) {
   form {
     width: 180%;
   }
