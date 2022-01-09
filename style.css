@@ -59,7 +59,6 @@ header h1 {
 form {
   position: relative;
   width: 50%;
-  max-width: 100%;
 }
 
 form input[type="text"] {
@@ -169,6 +168,15 @@ ul.songs li {
     width: 100%;
   }
   form button {
-    min-width: 35%;
+    width: 35%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  form {
+    width: 180%;
+  }
+  form button {
+    width: 35%;
   }
 }
