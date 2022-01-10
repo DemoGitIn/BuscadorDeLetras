@@ -148,6 +148,10 @@ ul.songs li {
   margin: 15px;
 }
 
+.btnPic{
+  border-radius:50%;
+}
+
 /* MEDIA QUERIES-------------------------------------------------------- */
 
 @media (min-width: 500px) and (max-width: 1200px) {

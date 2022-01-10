@@ -60,7 +60,7 @@ const getLyrics = async (artist, songTitle,artistPic) => {
  
   result.innerHTML = ` 
   <div class="centered">
-  <img src=${artistPic} style="border-radius:50%;">
+  <img src=${artistPic} class="btnPic">
   </div>
     <h2><strong>${artist}</strong> - ${songTitle} </h2>
     <span>${lyrics}</span>
